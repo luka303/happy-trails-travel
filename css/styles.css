@@ -2,13 +2,14 @@
 	font-size: 20px;
 	font-family: fantasy;
 	color: purple;
+	text-align: center;
 }
 img{
 	max-width: 70%;
 	max-height: 60%;
 }
 p{
-	font-size: 50px;
+	font-size: 30px;
 	font-family: sans-serif;
 	color: purple;
 }
@@ -16,9 +17,38 @@ body{
 	background-color: green;
 }
 img{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
-	max-height: 50%;
+	width: 20%;
+	max-height: 10%;
+}
+.royce{
+	width: 25%;
+	max-height: 5%;
+}
+.rolls{
+	max-height: 100%;
+	width: auto;
+
+}
+h1{
+	text-align: center;
+	font-size: 50px;
+}
+
+
+@keyframes example {
+	0% {background-color: red;}
+	25% {background-color: yellow;}
+	50% {background-color: blue;}
+	75% {background-color: green;}
+	100% {background-color: red;}
+}
+
+
+div {
+  width: 500px;
+  height: 250px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 3s;
+	animation-iteration-count: infinite;
 }
