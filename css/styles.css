@@ -16,17 +16,19 @@ p{
 body{
 	background-color: green;
 }
-img{
-	width: 20%;
-	max-height: 10%;
+
+img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
 }
 .royce{
-	width: 25%;
-	max-height: 5%;
+	width: 30%;
+	max-height:100%;
 }
 .rolls{
 	max-height: 100%;
-	width: auto;
+	width: 40%;
 
 }
 h1{
@@ -51,4 +53,8 @@ div {
   animation-name: example;
   animation-duration: 3s;
 	animation-iteration-count: infinite;
+}
+.brij{
+	width: 30%;
+	height: 10%;
 }
